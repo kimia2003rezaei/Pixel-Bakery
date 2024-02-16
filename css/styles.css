@@ -8,7 +8,7 @@ body {
 }
 
 #home {
-    padding-top: 3%;
+    padding: 3% 3% 0 3%;
 }
 h1 {
     color: #ECDB71;
@@ -26,11 +26,6 @@ hr {
     width: 10%;
 }
 
-.avatar {
-    width: 100%;
-    height: auto;
-}
-
 .nav-bar {
     padding: 0 5%;
     background-color: #585C67;
@@ -41,8 +36,7 @@ hr {
     color: white;
 }
 
-
-.skill-row {
+.feature-row {
     width:50%;
     margin: 100px auto 100px auto;
     text-align: left;
@@ -94,4 +88,19 @@ hr {
 .credits {
     font-size: 0.85rem;
     margin-top: 40px;
+}
+
+@media (max-width: 520px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+    .bakery {
+        width: 70%;
+        height: auto;
+    }
+}
+@media (max-width: 350px) {
+    h1 {
+        font-size: 2.8rem;
+    }
 }
